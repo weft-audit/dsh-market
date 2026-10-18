@@ -7,10 +7,10 @@
   "plugins": [
     {
       "name": "dsh-guardrail",
-      "title": "Guardrail Sentinel (draft)",
-      "description": "双清单哨兵：安全清单（API key/系统文件/防火墙，触发即暂停）+ 遗漏清单（软建议）。草案，仓库待建。",
+      "title": "dsh-guardrail · Guardrail Sentinel",
+      "description": "双清单哨兵：硬安全清单（密钥/系统路径/危险写/治理文件/防火墙与凭据操作）+ 软建议清单。Windows/Linux 双规则集，15/15 测试通过。",
       "icon": "icons/guardrail.svg",
-      "author": "jarvis-owner",
+      "author": "weft-audit",
       "homepage": "https://github.com/weft-audit/dsh-guardrail#readme",
       "repository": {
         "url": "https://github.com/weft-audit/dsh-guardrail"

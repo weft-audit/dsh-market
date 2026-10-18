@@ -4,7 +4,7 @@
     "en": "Jarvis mechanism plugin family",
     "zh": "贾维斯机制插件族（六插件）"
   },
-  "note": "生成于 2026-10-19 夜班收工；五个新插件仓库待所有者 GitHub 上传，上传后回填 versions/source.commit。",
+  "note": "2026-10-19 已发布：六插件全部公开，versions 已回填实际 commit。",
   "plugins": [
     {
       "name": "dsh-guardrail",
@@ -42,7 +42,21 @@
       "repository": {
         "url": "https://github.com/weft-audit/dsh-dod"
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792367869,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-dod",
+            "commit": "1b0924cdef8059f6468b73ec3590aecd8c52eb43",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
     },
     {
       "name": "dsh-judgement",
@@ -54,7 +68,21 @@
       "repository": {
         "url": "https://github.com/weft-audit/dsh-judgement"
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792367869,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-judgement",
+            "commit": "65b5ad9a97a9f6646719d8201d8e800255e9d636",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
     },
     {
       "name": "dsh-ledger",
@@ -66,7 +94,21 @@
       "repository": {
         "url": "https://github.com/weft-audit/dsh-ledger"
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792367869,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-ledger",
+            "commit": "588a07141c97584b85c599e206b43c91d25ee592",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
     },
     {
       "name": "dsh-checkpoint",
@@ -78,7 +120,21 @@
       "repository": {
         "url": "https://github.com/weft-audit/dsh-checkpoint"
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792367869,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-checkpoint",
+            "commit": "d7c8ae71e95368fe3019f316a0928d02d1547c0c",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
     },
     {
       "name": "dsh-audit",
@@ -90,7 +146,21 @@
       "repository": {
         "url": "https://github.com/weft-audit/dsh-audit"
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792367869,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-audit",
+            "commit": "7bbaaeb329eb8aadbbd07e750a5841ce56763259",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
     }
   ]
 }

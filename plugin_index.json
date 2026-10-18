@@ -1,9 +1,10 @@
 {
   "format": 1,
   "title": {
-    "en": "Jarvis guardrails",
-    "zh": "贾维斯哨兵插件"
+    "en": "Jarvis mechanism plugin family",
+    "zh": "贾维斯机制插件族（六插件）"
   },
+  "note": "生成于 2026-10-19 夜班收工；五个新插件仓库待所有者 GitHub 上传，上传后回填 versions/source.commit。",
   "plugins": [
     {
       "name": "dsh-guardrail",
@@ -30,6 +31,66 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-dod",
+      "title": "dsh-dod · Evidence-first completion checker",
+      "description": "无证据不算完成：结果措辞软提示（不拦截）+ dod_check 五段式/DoD 自检/禁用词校验。审计复评 9/10。",
+      "icon": "",
+      "author": "weft-audit",
+      "homepage": "https://github.com/weft-audit/dsh-dod#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-dod"
+      },
+      "versions": []
+    },
+    {
+      "name": "dsh-judgement",
+      "title": "dsh-judgement · Judgement checklist skill",
+      "description": "20 条判断力清单技能包（中英，纯方法论），经 skill-filesystem customSkillDirs 注入。审计 9/10。",
+      "icon": "",
+      "author": "weft-audit",
+      "homepage": "https://github.com/weft-audit/dsh-judgement#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-judgement"
+      },
+      "versions": []
+    },
+    {
+      "name": "dsh-ledger",
+      "title": "dsh-ledger · Usage ledger",
+      "description": "usage 事件 JSONL 记账 + 单一口径报表（只加不乘、原币不折算，不读余额、不设硬闸）。审计复评 10/10。",
+      "icon": "",
+      "author": "weft-audit",
+      "homepage": "https://github.com/weft-audit/dsh-ledger#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-ledger"
+      },
+      "versions": []
+    },
+    {
+      "name": "dsh-checkpoint",
+      "title": "dsh-checkpoint · Task checkpoint protocol",
+      "description": "断点协议 JS 移植：记录断点文件、恢复只做剩余步骤、不自动执行（CLI 显式调用）。审计复评 10/10。",
+      "icon": "",
+      "author": "weft-audit",
+      "homepage": "https://github.com/weft-audit/dsh-checkpoint#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-checkpoint"
+      },
+      "versions": []
+    },
+    {
+      "name": "dsh-audit",
+      "title": "dsh-audit · Fixed-rubric scorer",
+      "description": "固定 rubric 0-10 评分官（完整性3/准确性3/格式2/返工2）+ 三眼定分协议；只打分不裁决不执行。审计复评 10/10，评分稳定性实测 std 0.366。",
+      "icon": "",
+      "author": "weft-audit",
+      "homepage": "https://github.com/weft-audit/dsh-audit#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-audit"
+      },
+      "versions": []
     }
   ]
 }

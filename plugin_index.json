@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Jarvis guardrails",
+    "zh": "贾维斯哨兵插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-guardrail",
+      "title": "Guardrail Sentinel (draft)",
+      "description": "双清单哨兵：安全清单（API key/系统文件/防火墙，触发即暂停）+ 遗漏清单（软建议）。草案，仓库待建。",
+      "icon": "icons/guardrail.svg",
+      "author": "jarvis-owner",
+      "homepage": "https://github.com/weft-audit/dsh-guardrail#readme",
+      "repository": {
+        "url": "https://github.com/weft-audit/dsh-guardrail"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792303400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/weft-audit/dsh-guardrail",
+            "commit": "8c95350a67d80d390e3e669663bb16e7568b1035",
+            "path": ""
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

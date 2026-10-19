@@ -10,7 +10,7 @@
       "name": "dsh-guardrail",
       "title": "dsh-guardrail · Guardrail Sentinel",
       "description": "双清单哨兵：硬安全清单（密钥/系统路径/危险写/治理文件/防火墙与凭据操作）+ 软建议清单。Windows/Linux 双规则集，15/15 测试通过。",
-      "icon": "icons/guardrail.svg",
+      "icon": "",
       "author": "weft-audit",
       "homepage": "https://github.com/weft-audit/dsh-guardrail#readme",
       "repository": {
